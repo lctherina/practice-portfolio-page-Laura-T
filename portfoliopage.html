@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Laura's Portfolio Page!</h1>
+        <nav>
+            <a href="about">About</a>
+            <a href="skills">Skills</a>
+            <a href="Contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p> Hi! I am taking web development classes through LaunchCode and am currently learning about HTML and CSS!</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <table>
+                <caption>Skills Table</caption>
+                <tr>
+                    <th>Skill</th>
+                    <th>Proficiency Level</th>
+                </tr>
+                <tr>
+                    <td>Turning on a Computer</td>
+                    <td>   Expert</td>
+                </tr>
+                <tr>
+                    <td>Writing Loops</td>
+                    <td>Novice</td>
+                </tr>
+            </table>
+        </section>
+        <section id="Contact">
+            <h2>Contact Form</h2>
+            <form>
+                <form action="/submit" method="POST">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email">
+                    <label for="textarea">Message us:</label>
+                    <textarea></textarea>
+                    <button type="submit">Submit</button>
+                </form>
+            </form>
+        </section>
+        <footer>
+            <p>&copy; 2025 My Portfolio Page </p>
+        </footer>
+    </main>
+</body>
+</html>
