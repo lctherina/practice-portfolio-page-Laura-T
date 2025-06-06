@@ -1,0 +1,74 @@
+p {
+    color:maroon;
+    font-size: 16px;
+    font-family:monospace;
+}
+
+
+
+h1 {
+    color:coral;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration-line: underline;
+    text-decoration-color: black;
+
+}
+
+hr {
+    border-color: indigo;
+    
+}
+
+
+header {
+    text-align: center;
+    background-color: seagreen;
+    outline: auto;
+    margin-left: 80px;
+    margin-right: 80px;
+    outline-color:coral;
+    outline-style: solid;
+}
+
+#about {
+    background-color: darkgoldenrod;
+    text-align: left;
+    margin-right: 80px;
+    margin-top: 80px;
+    outline: auto;
+    outline-width: 5px;
+    outline-color: darkslateblue;
+    
+
+}
+#skills {
+    background-color: blueviolet;
+    font-family: cursive;
+    margin-left: 100px;
+    margin-right: 400px;
+    outline: auto;
+    outline-style: double;
+    outline-width: 5px;
+    outline-color: crimson;
+    
+}
+html {
+    background-color: brown;
+}
+
+h3 {
+    text-align: center;
+}
+
+.centered-bulleted-list {
+    text-align: center;
+}
+
+.centered-bulleted-list {
+    list-style-position: inside;
+}
+
+footer {
+    text-align: center;
+    margin-top: 60px;
+}
